@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: helvetica, cursive;
+  /* font-family: helvetica, cursive; */
   height: 100%;
   background: #d1c02a;
   color: white;
@@ -23,8 +23,8 @@ body {
   align-items: center;
   position: absolute;
   margin: 0px;
-  font-size: 16px;
-  padding: 1em;
+  /* font-size: 16px; */
+  /* padding: 1em; */
   background-color: #d1c02a;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -37,19 +37,16 @@ body {
   border: 2px solid rgb(232, 248, 11);
   box-shadow: 0 0 10px rgb(182, 173, 91);
   margin-bottom: 20px;
-
-  }
-
-
-h1{
-  font-size: 35px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
 }
 
-h2{
+h1 {
+  font-size: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
   font-size: 13px;
-  font-family: 'Raleway', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .profile {
@@ -60,9 +57,7 @@ h2{
 .social {
   text-align: center;
   list-style: none;
- 
 }
-
 
 .social img {
   width: 33px;
@@ -72,12 +67,12 @@ h2{
   transition: transform 0.5s ease;
 }
 
-.social :hover{
+.social :hover {
   width: 30px;
   transform: rotate(360deg);
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -86,11 +81,8 @@ footer{
   position: absolute;
   width: 100%;
   display: block;
- bottom: 0;
-}
-
-footer:hover{
-  background-color: rgb(209, 15, 15);
+  bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media (max-width: 420px) {
@@ -99,7 +91,5 @@ footer:hover{
     width: 90%;
     padding: 30px;
     border-radius: 0;
-    
-    
   }
 }
