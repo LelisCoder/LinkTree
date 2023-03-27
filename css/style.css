@@ -5,7 +5,6 @@
 }
 
 body {
-  /* font-family: helvetica, cursive; */
   height: 100%;
   background: #d1c02a;
   color: white;
@@ -23,8 +22,6 @@ body {
   align-items: center;
   position: absolute;
   margin: 0px;
-  /* font-size: 16px; */
-  /* padding: 1em; */
   background-color: #d1c02a;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
